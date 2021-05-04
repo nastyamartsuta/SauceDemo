@@ -1,3 +1,5 @@
+package tests;
+
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -8,6 +10,7 @@ public class ShoppingCartTest extends BaseTest {
 
     @Test
     public void addProductToShoppingCart() {
+
         driver.get("https://www.saucedemo.com/");
         driver.findElement(By.id("user-name")).sendKeys("standard_user");
         driver.findElement(By.name("password")).sendKeys("secret_sauce");
