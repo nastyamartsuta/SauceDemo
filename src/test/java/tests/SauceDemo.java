@@ -1,9 +1,10 @@
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.Test;
+package tests;
 
-public class SauceDemo extends BaseTest{
+import org.openqa.selenium.By;
+import org.testng.annotations.Test;
+import tests.BaseTest;
+
+public class SauceDemo extends BaseTest {
     @Test
     public void locators () {
 
@@ -34,14 +35,6 @@ public class SauceDemo extends BaseTest{
 //        xpath
 //        driver.findElement(By.xpath("//*[@id='item_4_title_link'']/div"));
 //        driver.findElement(By.xpath("//*DESCRIPTION"));
-
-
-
-
-
-
-
-
 
     }
 }
