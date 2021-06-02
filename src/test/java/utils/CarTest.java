@@ -10,7 +10,7 @@ import static org.testng.Assert.assertEquals;
 @Log4j2
 public class CarTest {
 
-    @Test
+    @Test (enabled = false)
     public void carTest() {
         Car car1 = CarFactory.get();
         Car car2 = CarFactory.get();
